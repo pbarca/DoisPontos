@@ -17,9 +17,12 @@ namespace DoisPontos
             InitializeComponent();
         }
 
+        Ponto P1 = new Ponto();
+        Ponto P2 = new Ponto();
+
         private void Button1_Click(object sender, EventArgs e)
         {
-
+            P1.X = Convert.ToDouble(x1.Text);
         }
     }
 }
